@@ -1,5 +1,5 @@
 {
-    "name": "VolleyballScheduling/report",
+    "name": "volleyball/report",
     "type": "library",
     "description": "report libraries for the volleyball system.",
     "keywords": [
@@ -21,17 +21,16 @@
         "php": ">=5.4"
     },
     "require-dev": {
-//        "phpspec/phpspec": "2.0.*@dev"
+
     },
     "autoload": {
         "psr-4": {
-            "Volleyball\\Component\\Report\\": "",
-//            "Volleyball\\Component\\Report\\spec": "spec/"
+            "Volleyball\\Component\\Report\\": ""
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.*@dev"
+            "dev-master": "0.1.*-dev"
         }
     }
 }
